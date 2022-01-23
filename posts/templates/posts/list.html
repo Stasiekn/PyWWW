@@ -1,0 +1,17 @@
+{% extends 'general.html' %}
+{% block content %}
+    <div class="row">
+        <form>
+            <input type="text" id="q" name="q">
+            <input type="submit" value="search">
+        </form>
+    </div>
+<h1 class="title">Lista postów</h1>
+<ul class="list-group">
+    {% for post in posts_list %}
+        <li class="list-group-item"> <a href="{% url 'posts:details' post.id %}">{{ post.title }}</a>
+        {{ post.spondored }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

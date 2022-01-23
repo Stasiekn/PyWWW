@@ -1,0 +1,22 @@
+{% extends 'general.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-9">
+            <h1>{{ post.title }}</h1>
+            <div>
+                {{ post.content }}
+            </div>
+            {% if post.example_file %}
+                <div>Pobierz <a href="{{ post.example_file.url }}">przykład</a></div>
+            {% endif %}
+        </div>
+        <div class="col-md-3">
+            <img src="{{ post.image.url }}" width="100%">
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,23 @@
+{% extends "general.html" %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ book.title }}</h1>
+    <div class="row">
+        <div class="col-md-6 text-center">{% if book.cover%}<img src="{{ book.cover.url }}">{% endif %} </div>
+        <div class="col-md-6">
+        <div>
+        {% if book.available %}
+            <div class="alert alert-success" role="alert">Dostępna</div>
+        {% else %}
+            <div class="alert alert-danger" role="alert">Wypożyczona</div>
+        {% endif %}
+        </div>
+        <div>Autor:{{ book.available }}</div>
+        <div>Rok wydania:{{ book.publication_year }}</div>
+        <div>Opis:</div>
+        <div>{{ book.description }}</div>
+    </div>
+    </div>
+{% endblock %}

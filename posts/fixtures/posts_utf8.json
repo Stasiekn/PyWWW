@@ -1,0 +1,62 @@
+[
+{
+  "model": "posts.post",
+  "pk": 1,
+  "fields": {
+    "title": "Mój pierwszy post",
+    "content": "Mój projekt będzie biblioteką ....",
+    "published": false,
+    "created": "2021-11-08T15:40:43.532Z",
+    "modified": "2021-11-08T15:40:43.532Z",
+    "spondored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 2,
+  "fields": {
+    "title": "Wycieczka do chin",
+    "content": "Instagram ze zdjęciami Chin to jest ......",
+    "published": false,
+    "created": "2021-11-08T20:40:56.228Z",
+    "modified": "2021-11-08T20:40:56.228Z",
+    "spondored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 3,
+  "fields": {
+    "title": "Naprawa samochodu",
+    "content": "Hundai coupe ma bardzo wiele wpólnego",
+    "published": false,
+    "created": "2021-11-08T20:41:22.883Z",
+    "modified": "2021-11-08T20:41:22.883Z",
+    "spondored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 4,
+  "fields": {
+    "title": "Acura",
+    "content": "dfdsfd",
+    "published": false,
+    "created": "2021-11-08T20:41:33.660Z",
+    "modified": "2021-11-08T20:41:33.661Z",
+    "spondored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 5,
+  "fields": {
+    "title": "Hello World",
+    "content": "Hello everyone",
+    "published": true,
+    "created": "2021-11-11T08:56:39.532Z",
+    "modified": "2021-11-11T08:56:39.532Z",
+    "spondored": false
+  }
+}
+]

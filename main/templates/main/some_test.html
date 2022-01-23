@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Mam na imie {{ first_name }}</h1>
+    <div>
+        Wiek : {{ age }}
+    </div>
+    <h2>Gry</h2>
+    <ul>
+        {% for gra in gry %}
+            <li>{{ gra }}</li>
+        {% endfor %}
+    </ul>
+     <h2>Gry</h2>
+        <ol>
+         {% for prog, level in programing.items %}
+                <li>{{ prog }} {{ level }}</li>
+            {% endfor %}
+        </ol>
+</body>
+</html>
